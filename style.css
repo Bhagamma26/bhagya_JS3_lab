@@ -1,0 +1,54 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1501973801540-537f08ccae7b")
+        no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* App Card */
+.app {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f6fa5;
+}
+
+/* Weather Output */
+.weather-info {
+    margin-top: 20px;
+}
